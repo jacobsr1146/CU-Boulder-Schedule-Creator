@@ -1,0 +1,8 @@
+My project is a schedule planer for CU students. It would allow them to put in activities at certain times and even put in activities that
+they would like to do but don't know when. My program will take into account the time it would take to get from one location to another
+in order to make your schedule the most efficient time wise.
+  Data Structure:
+      Graph- map/graph of CU main campus.
+             calculates the shortest distance from one location to another using Dijkstra's method.
+      HashTable- used to hold the schedule data for each day of the week.
+      Queue- used to cycle through the different time slots in a day when finding the best time slot for a new activity.
